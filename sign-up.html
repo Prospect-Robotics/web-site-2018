@@ -62,15 +62,15 @@ Password<input type="password" name="pswrd"/>
 <script language="javascript">
 function check(form)
 {
- 
+  if(form.pswrd.value == "prospect.2813.admin")
+  {
+      window.open("AdminSection-dfghjhgfjuycfhrhh.html")
+  }
  if(form.pswrd.value == "prospect.2813")
   {
     window.open("StudentSection-jasdjfhurnbvinudfhgundfsgnodsnfg.html")
   }
- if(form.pswrd.value == "prospect.2813.admin")
-  {
-      window.open("AdminSection-dfghjhgfjuycfhrhh.html")
-  }
+
  else
  {
    alert("Error Password or Username")
